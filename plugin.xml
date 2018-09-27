@@ -79,12 +79,7 @@
             <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fbak_app_id" />
             <meta-data android:name="com.facebook.accountkit.ClientToken" android:value="@string/fbak_app_ak_token" />
             <meta-data android:name="com.facebook.accountkit.FacebookAppEventsEnabled" android:value="false"/>
-            <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" tools:replace="android:theme" android:theme="@style/AccountKitLoginTheme">
-            </activity>
         </config-file>
-        <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
-            <manifest xmlns:tools="http://schemas.android.com/tools" />
-        </edit-config>
         <source-file src="src/android/FacebookAccountKitLogin.java" target-dir="src/org/apache/cordova/FacebookAccountKit" />
         <!-- account kit framework-->
         <framework src="com.facebook.android:account-kit-sdk:4.+"/>
