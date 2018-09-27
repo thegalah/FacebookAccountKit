@@ -75,8 +75,6 @@
             </style>
         </config-file>
         <config-file parent="application" target="AndroidManifest.xml">
-            <meta-data android:name="com.facebook.accountkit.ApplicationName" android:value="@string/fbak_app_name" />
-            <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fbak_app_id" />
             <meta-data android:name="com.facebook.accountkit.ClientToken" android:value="@string/fbak_app_ak_token" />
             <meta-data android:name="com.facebook.accountkit.FacebookAppEventsEnabled" android:value="false"/>
         </config-file>
